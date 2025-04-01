@@ -63,14 +63,13 @@ main.py
 pad_sentences(): Implements dynamic padding for batch-wise sentence processing. Ensures equal-length input by appending PAD_ID.
 
 
-Make sure run_exp.sh includes default hyperparameters.
+ run_exp.sh includes default hyperparameters.
 
-📈 Expected Results
-With proper implementation and default settings (PyTorch 1.10.2, numpy 1.21.1), you should observe:
+📈  Results
 
 Dev Accuracy ≈ 92.24%
+Test accuracy 95%
 
-Test set predictions saved in cfimdb-test-output.txt (labels in test set are hidden for blind grading)
 
 
 
